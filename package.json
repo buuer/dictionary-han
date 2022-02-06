@@ -1,0 +1,40 @@
+{
+  "name": "dictionary-han",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "nodemon -T ./src/main.ts",
+    "build": "tsc",
+    "start": "tsc && node ./src/main.js"
+  },
+  "author": "buuer",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "better-sqlite3": "^7.5.0",
+    "fs-extra": "^10.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-logger": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.4.2",
+    "@types/fs-extra": "^9.0.13",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.5",
+    "@types/koa-logger": "^3.1.2",
+    "@types/koa__cors": "^3.1.1",
+    "@types/koa__router": "^8.0.11",
+    "@types/node": "16",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
+    "esbuild": "^0.14.18",
+    "eslint": "^8.8.0",
+    "koa-helmet": "^6.1.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
