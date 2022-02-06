@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon -T ./src/main.ts",
     "build": "tsc",
-    "start": "tsc && node ./src/main.js"
+    "start": "tsc && node ./dist/main.js"
   },
   "author": "buuer",
   "license": "MIT",
